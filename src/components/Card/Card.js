@@ -3,7 +3,7 @@ import {makeStyles} from "@material-ui/core/styles";
 import React from 'react';
 
 
-// donner un style via makeStyle à nos listes. 
+// donner un style via makeStyle aux tâches. 
 const useStyle = makeStyles((theme)=> ({
     card:{
         padding: theme.spacing(2),

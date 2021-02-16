@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import React from 'react'
 import Title from "./Title"
 import Card from "../Card/Card"
+import Input from "../Input/Input"
 
 // donner un style via makeStyle à nos listes. 
 const useStyle = makeStyles((theme)=> ({
@@ -24,7 +25,7 @@ export default function List() {
                 <Card />
                 <Card />
                 <Card />
-
+                <Input />
             </Paper>
         </div>
     )
