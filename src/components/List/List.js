@@ -2,6 +2,7 @@ import { CssBaseline, Paper, Typography } from '@material-ui/core'
 import { makeStyles } from "@material-ui/core/styles"
 import React from 'react'
 import Title from "./Title"
+import Card from "../Card/Card"
 
 // donner un style via makeStyle à nos listes. 
 const useStyle = makeStyles((theme)=> ({
@@ -19,6 +20,10 @@ export default function List() {
             <Paper className= {classes.root}>
                 <CssBaseline />
                 <Title/>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
 
             </Paper>
         </div>

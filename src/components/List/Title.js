@@ -8,10 +8,14 @@ const useStyle = makeStyles((theme)=> ({
     title:{
         color: "#ffff",
         flexGrow:1,
+        fontWeight: "bold",
+
+        
     },
     titleDiv:{
         margin:theme.spacing(1),
         display:"flex",
+        padding: theme.spacing(2),
     },
     input:{
         margin: theme.spacing(1),
